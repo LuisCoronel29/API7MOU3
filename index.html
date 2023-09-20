@@ -17,12 +17,13 @@
                 <legend>Email</legend>
                 <input type="email" v-model="email" placeholder="Escribe aquí" name="">
                 <legend>Password</legend>
-                <input type="password" v-model="password" placeholder="Escribe aquí" name="">
+                <input type="password" v-model="password" placeholder="Escribe aquí" name=""><br>
+                <button @click="login" type="button">Acceder</button>
             </fieldset>
            
             
         </form>
-        <button @click="login" type="button">Acceder</button>
+        
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
