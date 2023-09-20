@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>PROGRAMACION AVANZADA</title>
+    <style>
+        /* Agrega estilos CSS si es necesario */
+    </style>
+</head>
+<body>
+    <div class="container" id="container_app">
+        <form>
+            <fieldset>
+                <legend>Datos de Acceso</legend>
+                <legend>Email</legend>
+                <input type="email" v-model="email" placeholder="Escribe aquí" name="">
+                <legend>Password</legend>
+                <input type="password" v-model="password" placeholder="Escribe aquí" name="">
+            </fieldset>
+           
+            
+        </form>
+        <button @click="login" type="button">Acceder</button>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script type="text/javascript">
+        const { createApp, ref } = Vue;
+
+        createApp({
+            data() {
+                return {
+                    email: '',
+                    password: '',
+                    loggedIn: false
+                };
+            },
+            methods: {
+                async login() {
+                    const response = await fetch("users.json");
+                    const users = await response.json();
+
+                    const user = users.find((user) => {
+                        return this.email === user.email && this.password === user.password;
+                    });
+
+                    if (user) {
+                        alert("Bienvenido " + user.name);
+                        this.loggedIn = true;
+                    } else {
+                        alert("Datos incorrectos. Intente nuevamente.");
+                    }
+                }
+            }
+        }).mount('#container_app');
+    </script>
+</body>
+</html>
