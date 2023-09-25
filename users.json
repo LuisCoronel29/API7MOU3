@@ -1,203 +1,327 @@
 [
-    {
-      "name": "Juan Pérez",
-      "email": "juan@example.com",
-      "password": "contrasena123"
-    },
-    {
-      "name": "María García",
-      "email": "maria@example.com",
-      "password": "maria456"
-    },
-    {
-      "name": "Pedro Rodríguez",
-      "email": "pedro@example.com",
-      "password": "pedro789"
-    },
-    {
-      "name": "Luisa Fernández",
-      "email": "luisa@example.com",
-      "password": "luisa2022"
-    },
-    {
-      "name": "Andrés González",
-      "email": "andres@example.com",
-      "password": "andres1234"
-    },
-    {
-      "name": "Ana Martínez",
-      "email": "ana@example.com",
-      "password": "ana5678"
-    },
-    {
-      "name": "Carlos Sánchez",
-      "email": "carlos@example.com",
-      "password": "carlos999"
-    },
-    {
-      "name": "Sofía López",
-      "email": "sofia@example.com",
-      "password": "sofia777"
-    },
-    {
-      "name": "Diego Ramírez",
-      "email": "diego@example.com",
-      "password": "diego555"
-    },
-    {
-      "name": "Laura Torres",
-      "email": "laura@example.com",
-      "password": "laura111"
-    },
-    {
-      "name": "Manuel Vargas",
-      "email": "manuel@example.com",
-      "password": "manuel222"
-    },
-    {
-      "name": "Isabella Pérez",
-      "email": "isabella@example.com",
-      "password": "isabella333"
-    },
-    {
-      "name": "Javier Morales",
-      "email": "javier@example.com",
-      "password": "javier444"
-    },
-    {
-      "name": "Valentina Castro",
-      "email": "valentina@example.com",
-      "password": "valentina777"
-    },
-    {
-      "name": "Miguel Ruiz",
-      "email": "miguel@example.com",
-      "password": "miguel123"
-    },
-    {
-      "name": "Camila González",
-      "email": "camila@example.com",
-      "password": "camila456"
-    },
-    {
-      "name": "Matías Silva",
-      "email": "matias@example.com",
-      "password": "matias789"
-    },
-    {
-      "name": "Lucía Torres",
-      "email": "lucia@example.com",
-      "password": "lucia2021"
-    },
-    {
-      "name": "Felipe Fernández",
-      "email": "felipe@example.com",
-      "password": "felipe555"
-    },
-    {
-      "name": "Isabel López",
-      "email": "isabel@example.com",
-      "password": "isabel999"
-    },
-    {
-      "name": "Sebastián Pérez",
-      "email": "sebastian@example.com",
-      "password": "sebastian777"
-    },
-    {
-      "name": "Valeria González",
-      "email": "valeria@example.com",
-      "password": "valeria111"
-    },
-    {
-      "name": "José Rodríguez",
-      "email": "jose@example.com",
-      "password": "jose222"
-    },
-    {
-      "name": "Amanda Martínez",
-      "email": "amanda@example.com",
-      "password": "amanda333"
-    },
-    {
-      "name": "Carlos Pérez",
-      "email": "carlos@example.com",
-      "password": "carlos444"
-    },
-    {
-      "name": "Renata Sánchez",
-      "email": "renata@example.com",
-      "password": "renata555"
-    },
-    {
-      "name": "Mateo Torres",
-      "email": "mateo@example.com",
-      "password": "mateo111"
-    },
-    {
-      "name": "Fernanda López",
-      "email": "fernanda@example.com",
-      "password": "fernanda222"
-    },
-    {
-      "name": "Joaquín González",
-      "email": "joaquin@example.com",
-      "password": "joaquin333"
-    },
-    {
-      "name": "Sara Martínez",
-      "email": "sara@example.com",
-      "password": "sara444"
-    },
-    {
-      "name": "Nicolás García",
-      "email": "nicolas@example.com",
-      "password": "nicolas555"
-    },
-    {
-      "name": "Valentina Pérez",
-      "email": "valentina@example.com",
-      "password": "valentina666"
-    },
-    {
-      "name": "Martín Fernández",
-      "email": "martin@example.com",
-      "password": "martin777"
-    },
-    {
-      "name": "Catalina Sánchez",
-      "email": "catalina@example.com",
-      "password": "catalina888"
-    },
-    {
-      "name": "Emilio González",
-      "email": "emilio@example.com",
-      "password": "emilio999"
-    },
-    {
-      "name": "Isabella Ramírez",
-      "email": "isabella2@example.com",
-      "password": "isabella2"
-    },
-    {
-      "name": "Antonio Rodríguez",
-      "email": "antonio@example.com",
-      "password": "antonio123"
-    },
-    {
-      "name": "Daniela Pérez",
-      "email": "daniela@example.com",
-      "password": "daniela456"
-    },
-    {
-      "name": "Hugo Silva",
-      "email": "hugo@example.com",
-      "password": "hugo789"
-    },
-    {
-      "name": "Olivia Torres",
-      "email": "olivia@example.com",
-      "password": "olivia2023"
-    }
-  ]
-  
+  {
+    "name": "Juan Pérez",
+    "email": "juan@example.com",
+    "username": "juanito",
+    "password": "contrasena123",
+    "phone": "123-456-7890",
+    "company": "ABC Company",
+    "address": "123 Main Street"
+  },
+  {
+    "name": "María García",
+    "email": "maria@example.com",
+    "username": "maria123",
+    "password": "maria456",
+    "phone": "456-789-0123",
+    "company": "XYZ Inc",
+    "address": "456 Elm Avenue"
+  },
+  {
+    "name": "Pedro Rodríguez",
+    "email": "pedro@example.com",
+    "username": "pedrito",
+    "password": "pedro789",
+    "phone": "789-012-3456",
+    "company": "123 Corporation",
+    "address": "789 Oak Road"
+  },
+  {
+    "name": "Luisa Fernández",
+    "email": "luisa@example.com",
+    "username": "luisa123",
+    "password": "luisa2022",
+    "phone": "234-567-8901",
+    "company": "456 Enterprises",
+    "address": "234 Maple Lane"
+  },
+  {
+    "name": "Andrés González",
+    "email": "andres@example.com",
+    "username": "andres456",
+    "password": "andres1234",
+    "phone": "567-890-1234",
+    "company": "789 Co.",
+    "address": "567 Cedar Street"
+  },
+  {
+    "name": "Ana Martínez",
+    "email": "ana@example.com",
+    "username": "ana789",
+    "password": "ana5678",
+    "phone": "678-901-2345",
+    "company": "ABC Ltd.",
+    "address": "678 Pine Drive"
+  },
+  {
+    "name": "Carlos Sánchez",
+    "email": "carlos@example.com",
+    "username": "carlos111",
+    "password": "carlos999",
+    "phone": "789-012-3456",
+    "company": "XYZ Co.",
+    "address": "789 Birch Road"
+  },
+  {
+    "name": "Sofía López",
+    "email": "sofia@example.com",
+    "username": "sofia777",
+    "password": "sofia777",
+    "phone": "890-123-4567",
+    "company": "1234 Solutions",
+    "address": "890 Cedar Lane"
+  },
+  {
+    "name": "Diego Ramírez",
+    "email": "diego@example.com",
+    "username": "diego555",
+    "password": "diego555",
+    "phone": "123-234-5678",
+    "company": "4567 Group",
+    "address": "1234 Oak Drive"
+  },
+  {
+    "name": "Laura Torres",
+    "email": "laura@example.com",
+    "username": "laura111",
+    "password": "laura111",
+    "phone": "234-345-6789",
+    "company": "7899 Inc.",
+    "address": "2345 Pine Street"
+  },
+  {
+    "name": "Manuel Vargas",
+    "email": "manuel@example.com",
+    "username": "manuel222",
+    "password": "manuel222",
+    "phone": "345-456-7890",
+    "company": "ABC Enterprises",
+    "address": "345 Elm Avenue"
+  },
+  {
+    "name": "Isabella Pérez",
+    "email": "isabella@example.com",
+    "username": "isabella333",
+    "password": "isabella333",
+    "phone": "456-567-8901",
+    "company": "XYZ Solutions",
+    "address": "456 Oak Road"
+  },
+  {
+    "name": "Javier Morales",
+    "email": "javier@example.com",
+    "username": "javier444",
+    "password": "javier444",
+    "phone": "567-678-9012",
+    "company": "1234 Group",
+    "address": "567 Pine Drive"
+  },
+  {
+    "name": "Valentina Castro",
+    "email": "valentina@example.com",
+    "username": "valentina777",
+    "password": "valentina777",
+    "phone": "678-789-0123",
+    "company": "789 Enterprises",
+    "address": "678 Cedar Lane"
+  },
+  {
+    "name": "Miguel Ruiz",
+    "email": "miguel@example.com",
+    "username": "miguel123",
+    "password": "miguel123",
+    "phone": "789-890-1234",
+    "company": "ABC Solutions",
+    "address": "789 Oak Drive"
+  },
+  {
+    "name": "Camila González",
+    "email": "camila@example.com",
+    "username": "camila456",
+    "password": "camila456",
+    "phone": "890-901-2345",
+    "company": "XYZ Group",
+    "address": "890 Pine Drive"
+  },
+  {
+    "name": "Matías Silva",
+    "email": "matias@example.com",
+    "username": "matias789",
+    "password": "matias789",
+    "phone": "123-234-3456",
+    "company": "1234 Co.",
+    "address": "1234 Elm Avenue"
+  },
+  {
+    "name": "Lucía Torres",
+    "email": "lucia@example.com",
+    "username": "lucia2021",
+    "password": "lucia2021",
+    "phone": "234-345-4567",
+    "company": "456 Ltd.",
+    "address": "2345 Cedar Street"
+  },
+  {
+    "name": "Felipe Fernández",
+    "email": "felipe@example.com",
+    "username": "felipe555",
+    "password": "felipe555",
+    "phone": "345-456-5678",
+    "company": "789 Enterprises",
+    "address": "3456 Pine Drive"
+  },
+  {
+    "name": "Isabel López",
+    "email": "isabel@example.com",
+    "username": "isabel999",
+    "password": "isabel999",
+    "phone": "456-567-6789",
+    "company": "ABC Solutions",
+    "address": "4567 Oak Road"
+  },
+  {
+    "name": "Sebastián Pérez",
+    "email": "sebastian@example.com",
+    "username": "sebastian777",
+    "password": "sebastian777",
+    "phone": "567-678-7890",
+    "company": "XYZ Enterprises",
+    "address": "5678 Cedar Lane"
+  },
+  {
+    "name": "Valeria González",
+    "email": "valeria@example.com",
+    "username": "valeria111",
+    "password": "valeria111",
+    "phone": "678-789-8901",
+    "company": "1234 Solutions",
+    "address": "6789 Pine Drive"
+  },
+  {
+    "name": "José Rodríguez",
+    "email": "jose@example.com",
+    "username": "jose222",
+    "password": "jose222",
+    "phone": "789-890-9012",
+    "company": "ABC Group",
+    "address": "7890 Elm Avenue"
+  },
+  {
+    "name": "Amanda Martínez",
+    "email": "amanda@example.com",
+    "username": "amanda333",
+    "password": "amanda333",
+    "phone": "890-901-0123",
+    "company": "XYZ Ltd.",
+    "address": "8901 Cedar Street"
+  },
+  {
+    "name": "Carlos Pérez",
+    "email": "carlos@example.com",
+    "username": "carlos444",
+    "password": "carlos444",
+    "phone": "123-234-3456",
+    "company": "12345 Co.",
+    "address": "12345 Oak Road"
+  },
+  {
+    "name": "Renata Sánchez",
+    "email": "renata@example.com",
+    "username": "renata555",
+    "password": "renata555",
+    "phone": "234-345-4567",
+    "company": "45678 Enterprises",
+    "address": "45678 Pine Drive"
+  },
+  {
+    "name": "Mateo Torres",
+    "email": "mateo@example.com",
+    "username": "mateo111",
+    "password": "mateo111",
+    "phone": "345-456-5678",
+    "company": "78901 Solutions",
+    "address": "78901 Elm Avenue"
+  },
+  {
+    "name": "Fernanda López",
+    "email": "fernanda@example.com",
+    "username": "fernanda222",
+    "password": "fernanda222",
+    "phone": "456-567-6789",
+    "company": "ABC123 Group",
+    "address": "ABC123 Oak Road"
+  },
+  {
+    "name": "Joaquín González",
+    "email": "joaquin@example.com",
+    "username": "joaquin333",
+    "password": "joaquin333",
+    "phone": "567-678-7890",
+    "company": "XYZ123 Ltd.",
+    "address": "XYZ123 Cedar Lane"
+  },
+  {
+    "name": "Sara Martínez",
+    "email": "sara@example.com",
+    "username": "sara444",
+    "password": "sara444",
+    "phone": "678-789-8901",
+    "company": "123456 Solutions",
+    "address": "123456 Pine Drive"
+  },
+  {
+    "name": "Nicolás García",
+    "email": "nicolas@example.com",
+    "username": "nicolas555",
+    "password": "nicolas555",
+    "phone": "789-890-9012",
+    "company": "ABCXYZ Group",
+    "address": "ABCXYZ Elm Avenue"
+  },
+  {
+    "name": "Valentina Pérez",
+    "email": "valentina@example.com",
+    "username": "valentina666",
+    "password": "valentina666",
+    "phone": "890-901-0123",
+    "company": "XYZABC Ltd.",
+    "address": "XYZABC Cedar Street"
+  },
+  {
+    "name": "Martín Fernández",
+    "email": "martin@example.com",
+    "username": "martin777",
+    "password": "martin777",
+    "phone": "123-234-3456",
+    "company": "1234567 Co.",
+    "address": "1234567 Oak Road"
+  },
+  {
+    "name": "Catalina Sánchez",
+    "email": "catalina@example.com",
+    "username": "catalina888",
+    "password": "catalina888",
+    "phone": "234-345-4567",
+    "company": "4567890 Enterprises",
+    "address": "4567890 Pine Drive"
+  },
+  {
+    "name": "Emilio González",
+    "email": "emilio@example.com",
+    "username": "emilio999",
+    "password": "emilio999",
+    "phone": "345-456-5678",
+    "company": "7890123 Solutions",
+    "address": "7890123 Elm Avenue"
+  },
+  {
+    "name": "Isabella Ramírez",
+    "email": "isabella2@example.com",
+    "username": "isabella2",
+    "password": "isabella2",
+    "phone": "456-567-6789",
+    "company": "ABC12345 Group",
+    "address": "ABC12345 Oak Road"
+  }
+
+]
